@@ -24,7 +24,7 @@ class Config(object):
     TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "AQGSxKoAu3i58vzlTvzftYp0P782Z3vlMOGAPYnmuMK88TaG3VbXWcOLOt-zGUl8snWtLu7T27kVtqmcXHu_qtsCY3F1da4MjSRGAjaLmKTe6a8bYJwkhYb-0Si8O_bEEnq7TTJsl_gAOgA2nfXsXza7K1qRtN0LM0xib3Ykhx7lPNXRQHfrbfpQb_oVeMozx0zoM_EijmX5vVCdPfv8cF1shMf3phPMWq2vnsol5wJ0eNG-8VNa1tPo4pv9S51BjV9578Cw7Fqdj34o0TZtcwdbEAUh6RNRsRWunJgzDM3yIGD_AX1CSD0Vscz1NqEt-vDTh7OZpXgLoofGRmd4t9nWaxwG1AAAAAFWVlv5AA")
 
     # Database URI
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://anmol0700:anmol0700@cluster0.rjjytvq.mongodb.net/?retryWrites=true&w=majority")
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb://iad2-c9-1.mongo.objectrocket.com:53773?ssl=true")
 
 
 def LOGGER(name: str) -> logging.Logger:
